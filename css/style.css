@@ -73,3 +73,8 @@ select:focus{border-color:var(--gold);outline:0}
 details{border-bottom:1px solid var(--line);padding:1rem 0}summary{cursor:pointer;font-weight:600;color:var(--gold2);list-style:none}summary::after{content:"+";float:right;color:var(--gold)}details[open] summary::after{content:"–"}details p{margin-top:.6rem}
 @media(max-width:860px){.steps,.feat,.pts,.cgrid{grid-template-columns:1fr}.cgrid{gap:2.5rem}.pts{text-align:left}.fcard{padding:1.4rem}}
 @media(min-width:861px) and (max-width:1000px){.steps{grid-template-columns:1fr 1fr}}
+.lang{margin-left:1.4rem;background:none;border:1px solid var(--line);color:var(--gold2);padding:.25rem .75rem;border-radius:99px;font:600 .8rem 'Manrope',sans-serif;cursor:pointer;transition:.2s}.lang:hover{border-color:var(--gold);background:rgba(200,169,106,.1)}
+.top{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));width:44px;height:44px;border-radius:50%;background:var(--grad);color:#14110a;border:0;font-size:1.2rem;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:9}.top.on{opacity:1;pointer-events:auto}
+.lgs{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2rem}.lg{border:1px solid var(--line);padding:1.2rem 1rem .8rem;text-align:center;transition:.3s}.lg:hover{border-color:var(--gold);transform:translateY(-4px)}.lg p{font-size:.85rem;color:var(--mist);margin-top:.2rem}
+@media(max-width:860px){.lgs{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.lang{margin-left:.8rem}}
