@@ -78,3 +78,12 @@ details{border-bottom:1px solid var(--line);padding:1rem 0}summary{cursor:pointe
 .lgs{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2rem}.lg{border:1px solid var(--line);padding:1.2rem 1rem .8rem;text-align:center;transition:.3s}.lg:hover{border-color:var(--gold);transform:translateY(-4px)}.lg p{font-size:.85rem;color:var(--mist);margin-top:.2rem}
 @media(max-width:860px){.lgs{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.lang{margin-left:.8rem}}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;justify-self:center;width:100%;max-width:540px}
+.pp{margin:0}.pp.b{margin-top:2.4rem}
+.hero .duo .photo,.team .photo{width:100%}
+.duo .photo img,.team .photo img{aspect-ratio:3/4;border-radius:50% 50% 6px 6px/37.5% 37.5% 6px 6px;object-position:50% 14%}
+.duo .photo::before,.team .photo::before{inset:10px -10px -10px 10px;border-radius:50% 50% 6px 6px/37.5% 37.5% 6px 6px}
+.pp figcaption{text-align:center;margin-top:1.2rem}.pp b{display:block;font:500 1.3rem 'Cormorant Garamond',serif;color:var(--gold2)}.pp span{font-size:.85rem;color:var(--mist)}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:2.5rem;max-width:760px;margin-inline:auto}
+.tm{text-align:center}.tm .photo{margin:0 auto 1.8rem}.tm h3{font-size:1.7rem;color:var(--gold2)}.tm .role{color:var(--gold);font-weight:600;font-size:.9rem;margin:.2rem 0 .6rem}.tm .muted{font-size:.95rem}
+@media(max-width:760px){.hero .duo{order:-1;max-width:420px;gap:1.1rem}.pp.b{margin-top:1.6rem}.pp b{font-size:1.1rem}.team{gap:1.2rem}.tm h3{font-size:1.3rem}.tm .muted{font-size:.85rem}}
