@@ -101,3 +101,8 @@ img{max-width:100%}
 @media(max-width:480px){header .wrap{height:auto;min-height:56px;flex-wrap:wrap;padding-block:.35rem}.logo{font-size:1rem}nav a{margin-left:.6rem;font-size:.8rem}.lang{margin-left:.5rem;padding:.2rem .55rem}h1{overflow-wrap:break-word}}
 .duo{align-items:start}
 .pp span{color:var(--gold);opacity:1;font-weight:600}
+.ph{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1.5fr);gap:.6rem}
+.fc{display:flex;flex-wrap:wrap;gap:.3rem 1.5rem}.fc small{color:var(--gold);font-size:.8rem;margin-left:.3rem}
+.lgs{grid-template-columns:repeat(3,1fr)}
+@media(max-width:860px){.lgs{grid-template-columns:1fr 1fr}.lgs .lg:last-child{grid-column:1/-1}}
+@media(max-width:760px){footer .fc{flex-direction:column;align-items:center;gap:.2rem}}

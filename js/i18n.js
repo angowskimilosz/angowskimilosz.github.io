@@ -39,6 +39,7 @@ Object.assign(D,{
 "Czy robicie też logo?":"Do you also design logos?","Tak. Możemy zaprojektować logo osobno albo razem ze stroną, żeby marka była spójna.":"Yes. We can design a logo separately or together with the website so your brand stays consistent.",
 "Dziękujemy!":"Thank you!","Wiadomość została wysłana. Odpowiemy na Twój adres e-mail najszybciej, jak to możliwe.":"Your message has been sent. We'll reply to your email as soon as possible.",
 "Miłosz & Aleksander – strony wizytówki i logo":"Miłosz & Aleksander – business-card websites and logos","O nas – Miłosz & Aleksander":"About us – Miłosz & Aleksander","Kontakt – Miłosz & Aleksander":"Contact – Miłosz & Aleksander","Dziękujemy – Miłosz & Aleksander":"Thank you – Miłosz & Aleksander"});
+Object.assign(D,{"Telefon (opcjonalnie)":"Phone (optional)","numer Miłosza":"Miłosz's number","numer Aleksandra":"Aleksander's number"});
 var L;try{L=localStorage.getItem('lang')}catch(e){}
 if(!L)L=((navigator.language||'pl').slice(0,2)==='pl')?'pl':'en';
 var nodes=[],w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),n,T0=document.title;
