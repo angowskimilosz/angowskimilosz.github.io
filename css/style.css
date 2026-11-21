@@ -99,3 +99,5 @@ img{max-width:100%}
 .pp span{display:block;margin-top:.25rem;font-size:.8rem;line-height:1.35;color:var(--ivory);opacity:.8}
 @media(max-width:760px){.pp figcaption{padding:2.6rem .7rem .7rem}.pp b{font-size:1rem}.pp span{font-size:.68rem}.duo .photo,.team .photo{border-radius:12px}}
 @media(max-width:480px){header .wrap{height:auto;min-height:56px;flex-wrap:wrap;padding-block:.35rem}.logo{font-size:1rem}nav a{margin-left:.6rem;font-size:.8rem}.lang{margin-left:.5rem;padding:.2rem .55rem}h1{overflow-wrap:break-word}}
+.duo{align-items:start}
+.pp span{color:var(--gold);opacity:1;font-weight:600}
