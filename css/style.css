@@ -87,3 +87,15 @@ details{border-bottom:1px solid var(--line);padding:1rem 0}summary{cursor:pointe
 .team{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:2.5rem;max-width:760px;margin-inline:auto}
 .tm{text-align:center}.tm .photo{margin:0 auto 1.8rem}.tm h3{font-size:1.7rem;color:var(--gold2)}.tm .role{color:var(--gold);font-weight:600;font-size:.9rem;margin:.2rem 0 .6rem}.tm .muted{font-size:.95rem}
 @media(max-width:760px){.hero .duo{order:-1;max-width:420px;gap:1.1rem}.pp.b{margin-top:1.6rem}.pp b{font-size:1.1rem}.team{gap:1.2rem}.tm h3{font-size:1.3rem}.tm .muted{font-size:.85rem}}
+img{max-width:100%}
+.duo .photo::before,.team .photo::before{content:none}
+.duo .photo,.team .photo{overflow:hidden;border-radius:16px;box-shadow:0 0 0 1px rgba(200,169,106,.4),0 26px 50px rgba(0,0,0,.55)}
+.duo .photo img,.team .photo img{border-radius:0;box-shadow:none;aspect-ratio:3/4;object-position:50% 14%;transition:transform .7s}
+.pp:hover .photo img,.tm:hover .photo img{transform:scale(1.04)}
+.pp{position:relative}
+.pp figcaption{position:absolute;left:0;right:0;bottom:0;margin:0;padding:3.6rem 1.1rem 1.1rem;border-radius:0 0 16px 16px;background:linear-gradient(transparent,rgba(11,11,12,.9));text-align:left;pointer-events:none}
+.pp b::before{content:"";display:block;width:28px;height:2px;background:var(--grad);margin-bottom:.5rem}
+.pp b{font-size:1.2rem;line-height:1.15}
+.pp span{display:block;margin-top:.25rem;font-size:.8rem;line-height:1.35;color:var(--ivory);opacity:.8}
+@media(max-width:760px){.pp figcaption{padding:2.6rem .7rem .7rem}.pp b{font-size:1rem}.pp span{font-size:.68rem}.duo .photo,.team .photo{border-radius:12px}}
+@media(max-width:480px){header .wrap{height:auto;min-height:56px;flex-wrap:wrap;padding-block:.35rem}.logo{font-size:1rem}nav a{margin-left:.6rem;font-size:.8rem}.lang{margin-left:.5rem;padding:.2rem .55rem}h1{overflow-wrap:break-word}}
